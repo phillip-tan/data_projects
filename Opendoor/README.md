@@ -1,5 +1,5 @@
 # k-NN Strikes Back!
-1. The goal of this project is to build a k-NN model using latitude and longitude data to predicting the closing prices of homes.
+1. The goal of this project is to build a k-NN model using latitude and longitude data to predict the closing prices of homes.
 2. The housing data can be found under **data.csv**  and a more detailed description of the project is titled **kNN_housing.pdf**
 3. **kNN_Strikes_Back.ipynb** is the jupyter notebook of the working code, as well as the entire workflow of the project.
 
