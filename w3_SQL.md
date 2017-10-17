@@ -1,4 +1,5 @@
-This challenge uses the [W3Schools SQL playground](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all).
+This challenge uses the [W3Schools SQL playground]
+http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
 
 1. Which customers are from the UK?
 ~~~
@@ -20,8 +21,7 @@ ORDER BY COUNT(Orders.OrderID) DESC;
 
 3. Which supplier has the highest average product price?
 ~~~
-SELECT Suppliers.SupplierID, Suppliers.SupplierName, Products.ProductID,
-Products.Price, AVG(Products.Price)
+SELECT Suppliers.SupplierID, Suppliers.SupplierName, Products.ProductID, Products.Price, AVG(Products.Price)
 FROM Suppliers
 LEFT JOIN Products
 ON Suppliers.SupplierID = Products.SupplierID
